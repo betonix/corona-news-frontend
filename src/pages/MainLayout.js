@@ -5,11 +5,13 @@ import Footer from '../components/footer'
 
 export const MainLayout = ({ children }) => {
   return (
-    <>
+    <div className="h-100">
       <Header />
-      <main>{children}</main>
+      <main>
+        {children}
+      </main>
       <Footer />
-    </>
+    </div>
   )
 }
 

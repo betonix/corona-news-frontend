@@ -1,6 +1,6 @@
 import React from 'react'
 import './style.css'
-import send from '../../analitycs'
+import send from '../../analytics'
 import PropTypes from 'prop-types'
 
 const Person = ({ name, role, link, linkImg }) => {

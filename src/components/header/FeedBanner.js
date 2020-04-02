@@ -25,7 +25,7 @@ export const FeedBanner = ({ displayBanner }) => {
 
       setFeed(transfomedFeed)
     })()
-  }, [])
+  }, [recovery])
 
   return (
     <a className={`${style.counterBanner} ${themes[theme + '-secundary']}`} style={{ display: displayBanner }}

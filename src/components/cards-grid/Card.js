@@ -1,6 +1,6 @@
 import React from 'react'
 import './style.css'
-import sendAnalitycs from '../../analitycs'
+import sendAnalitycs from '../../analytics'
 import PropTypes from 'prop-types'
 
 export default function Card({

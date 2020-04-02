@@ -14,7 +14,7 @@ export default function Home() {
     }
 
     loadContent()
-  }, [])
+  }, [newsLink])
 
   return <CardsGrid content={news} analyticsCategory="NEWS" />
 }

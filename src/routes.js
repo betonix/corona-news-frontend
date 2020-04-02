@@ -2,6 +2,7 @@ import React from 'react'
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
 import Home from './pages/home'
 import About from './pages/about'
+import Anuncio from './pages/announcement'
 import { MainLayout } from './pages/MainLayout'
 import { ThemeProvider, themes } from './components/context/ThemeContext'
 import content from './utils/content'
@@ -39,6 +40,14 @@ export default function Routes() {
           <ThemeProvider value={themes.pink} >
             <MainLayout>
               <Donation color={themes.pink} spreadsheetLink={content.donation}></Donation>
+            </MainLayout>
+          </ThemeProvider>
+        </Route>
+
+        <Route exact path="/anuncio">
+          <ThemeProvider value={themes.lemon} >
+            <MainLayout>
+              <Anuncio/>
             </MainLayout>
           </ThemeProvider>
         </Route>

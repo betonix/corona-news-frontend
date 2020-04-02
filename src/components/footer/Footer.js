@@ -4,14 +4,14 @@ import TW from '../../assets/tw.png'
 import AIDS from '../../assets/agencia-aids.png'
 import insta from '../../assets/insta.svg'
 import email from '../../assets/email.svg'
-import send from '../../analitycs'
+import send from '../../analytics'
 
 const Footer = () => {
   return (
-    <footer className="py-4 bg">
+    <footer className="footer py-4 bg mt-auto">
       <div className="container">
         <div className="row">
-          <div className="col-xs-12 col-sm-6 text-center text-sm-left">
+          <div className="col-xs-4 col-sm-4 text-center text-sm-left">
             <h1 className="row-sm footer-title">Contato</h1>
             <div className="row-sm social2">
               <a
@@ -38,10 +38,10 @@ const Footer = () => {
               </a>
             </div>
           </div>
-          <div className="col-xs-12 col-sm-6 text-center text-sm-left">
+          <div className="col-xs-8 col-sm-8 text-center text-sm-left">
             <div className="row">
               <h1 className="col-12 footer-title">Apoio</h1>
-              <div className="col-12 mb-4">
+              <div className="col-sm-12 col-md-6 mb-4">
                 <a
                   href="https://www.thoughtworks.com/pt/remote-work-playbook"
                   target="_blank"
@@ -57,7 +57,7 @@ const Footer = () => {
                   />
                 </a>
               </div>
-              <div className="col-12">
+              <div className="col-sm-12 col-md-6 mb-4">
                 <a
                   href="https://agenciaaids.com.br/"
                   target="_blank"
